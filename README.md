@@ -3,7 +3,7 @@ Find private key with bitcrack stride and last 7 hex digits
 Script assigns 7 random hex digits <br>
 writes to and checks tried.txt so never repeats the same 7 hex digits in same order. <br>
 no more that 2 adjacent identical hex characters. Limits the possible combinations to approx. 33 million<br>
-Example to test this method can find private key of a specific public asddress.<br>
+Example to test this method can find private key of a specific public address.<br>
 Test Address 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5 lies in keyspace 66 private key 000000000000000000000000000000000000000000000003E838B13505B26867 we know in this example last 7 hex 5B26867<BR>
  run BitCrack.exe -b 128 -t 256 -p 1380 --stride 100000000 --keyspace 20000000005b26867:3ffffffffffffffff -o FOUND.txt -c 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5<br>
 the python script generates 7 random  hex digits and places them in the end of the keyspace example 20000000005b26867<br>
