@@ -1,5 +1,5 @@
 # bitcrack-hex-suffix-search-
-Find private key with bitcrack stride and last 7 hex digits
+Find private key with bitcrack stride and last 7 hex digits Puzzle 66<br>
 Script assigns 7 random hex digits <br>
 writes to and checks tried.txt so never repeats the same 7 hex digits in same order. <br>
 no more that 2 adjacent identical hex characters. Limits the possible combinations to approx. 33 million<br>
