@@ -52,7 +52,7 @@ def generate_and_check(pattern):
         modified_pattern = insert_hex(pattern, hex_string)
         check_match(modified_pattern)
         print("Pattern:", modified_pattern)
-        time.sleep(33)  # Wait for 33 seconds before restarting adjust for gpu speed
+        time.sleep(60)  # Wait for 60 seconds before restarting adjust for gpu speed
 
 
 # Example usage
