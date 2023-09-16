@@ -12,7 +12,7 @@ To run program run adust  -b 128 -t 256 -p 1380 in script to match your gpu  adj
 run python3 p66.py and have bitcrack.exe in same folder a tried.txt database will be formed so no duplicate tries. DO not use command line below except to prove works. run python3 p66.py or python3 pattern66.py for linux<br>
 <br>
 <br>Example of operation<br>
-BitCrack.exe -b 128 -t 256 -p 1380 --stride 100000000 --keyspace 20000000005b26867:3ffffffffffffffff -o FOUND.txt -c 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5<br>
+BitCrack.exe -b 128 -t 256 -p 1380 --stride 10000000 --keyspace 20000000005b26867:3ffffffffffffffff -o FOUND.txt -c 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5<br>
 [2023-09-15.16:56:32] [Info] Compression : compressed<br>
 [2023-09-15.16:56:32] [Info] Starting at : 0000000000000000000000000000000000000000000000020000000005B26867 (66 bit)<br>
 [2023-09-15.16:56:32] [Info] Ending at   : 000000000000000000000000000000000000000000000003FFFFFFFFFFFFFFFF (66 bit)<br>
