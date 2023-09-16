@@ -45,7 +45,7 @@ def generate_and_check(pattern):
         modified_pattern = insert_hex(pattern, hex_string)
         check_match(modified_pattern)
         print("Pattern:", modified_pattern)
-        time.sleep(33)  # Wait for 33 seconds before restarting
+        time.sleep(60)  # Wait for 60 seconds before restarting
         # input("Press Enter to continue...")
         # Add additional conditions to check for success or exit the loop if desired
 
