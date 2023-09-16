@@ -21,7 +21,7 @@ def insert_hex(pattern, hex_string):
 
 def check_match(pattern):
     # Run the bitcrack.exe program and check if there is a successful match 
-    command = ['BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '100000000',
+    command = ['BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '10000000',
                '--keyspace', '2000000000' + pattern + ':3ffffffffffffffff', '-o', 'FOUND.txt',
                '-c', '13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so']
     subprocess.Popen(command, shell=True)
