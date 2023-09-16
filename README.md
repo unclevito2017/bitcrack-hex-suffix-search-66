@@ -8,7 +8,7 @@ Test Address 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5 lies in keyspace 66 private key 
  run cuBitCrack OR BitCrack.exe -b 128 -t 256 -p 1380 --stride 100000000 --keyspace 20000000005b26867:3ffffffffffffffff -o FOUND.txt -c 1K2wh7bdCYgFeipT8fnCS3GknWLKHPgJq5<br>
 the python script generates 7 random  hex digits and places them in the end of the keyspace example 20000000005b26867<br>
 Tries for a match if no match writes the tried to tried.txt checks tried.txt so no repeats then generates a new unique 7 hex digits  continuously. <br>
-To run program run adust  -b 128 -t 256 -p 1380 in script to match your gpu  adjust time.sleep(33)  # Wait for 33 seconds before restarting to match your gpu time to complete the total keyspace<br>
+To run program run adust  -b 128 -t 256 -p 1380 in script to match your gpu  adjust time.sleep(60)  # Wait for 60 seconds before restarting to match your gpu time to complete the total keyspace<br>
 run python3 p66.py and have bitcrack.exe in same folder a tried.txt database will be formed so no duplicate tries. DO not use command line below except to prove works. run python3 p66.py or python3 pattern66.py for linux<br>
 <br>
 <br>Example of operation<br>
